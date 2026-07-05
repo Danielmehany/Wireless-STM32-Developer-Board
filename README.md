@@ -20,13 +20,13 @@ choose between the two.
   no antenna design needed.
 - **Antenna keepout:** module sits on the board edge with no copper under the
   antenna on any layer.
-- **Wi-Fi 6**, 2.4 GHz.
-- **Bluetooth LE 5.4**, up to 2 Mbps.
+- **Wi-Fi 6**
+- **Bluetooth LE 5.4**
 - Talks to the STM32 over SPI.
 ## SPI + I2C
  
-- **High-speed SPI** to the radio - the STM32 drives it up to **50 MHz**.
-- **I2C** broken out for sensors.
+- **High-speed SPI** to the radio + extra peripherals via the pin header 
+- **I2C** broken out for sensors via pin header.
 ## USB-C
  
 - **USB-C** for both power and data.
